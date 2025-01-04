@@ -28,6 +28,7 @@
             display: flex;
             gap: 15px;
             text-align: right;
+            font-size:20px;
         }
         
         /* Navigation links styling */
@@ -345,7 +346,7 @@
         /* Responsive adjustments for mobile devices */
         @media (max-width: 750px) {
             .banner {
-                height: 130vh; /* Reduce height for smaller screens */
+                height: 125vh; /* Reduce height for smaller screens */
                 background-position: center top; /* Adjust image position if necessary */
             }
         }
